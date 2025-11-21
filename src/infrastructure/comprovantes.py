@@ -34,7 +34,7 @@ def gerar_comprovante(cnpj, valor):
     id = str(uuid.uuid4())
     cnpj_formatado = formatar_cnpj(cnpj)
     valor_formatado = formatar_valor_brasil(valor)
-    data_atual = datetime.now().strftime("%d/%m/%Y")
+    data_atual = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     status = validar_pagamento(cnpj, valor)["status"]
 
     nome_arquivo = os.path.join(pasta_final, f"comprovante_{id}.txt")
