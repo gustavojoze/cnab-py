@@ -86,8 +86,6 @@ print(gerar_comprovante("123456780001939", 150.0))
 #Questão 5
 print(calcular_totais(ARQ))
 ```
-# Questão :
-
 1 Questão:  
 a) Como você trataria um arquivo com linhas vazias ou linhas com tamanho incorreto?  
 Criaria uma função para validar estas informações, facilitando a verificação de linhas válidas, evitando processar linhas vazias ou incorretas, deixando o código mais organizado, limpo e fácil de manter.  
